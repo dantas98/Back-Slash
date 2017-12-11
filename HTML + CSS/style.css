@@ -1,0 +1,25 @@
+nav a:hover{
+  cursor: pointer;
+}
+
+#logo {
+  font-family:'Space Mono', monospace;
+  cursor: pointer;
+}
+
+.row {
+  padding: 5px;
+}
+
+.row img{
+  margin-right: 10px;
+}
+
+#contactUs {
+  background-image: url(contactUs.jpg);
+}
+
+h5 {
+  font-family: "Times New Roman", Georgia, Serif;
+  color: white; 
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+
+  </head>
+  <body>
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+  <a class="navbar-brand" id="logo" style="font-family:'Space Mono;', monospace;" href="#">BACK\SLASH</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link">About us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link">Our work</a>
+      </li>
+      <li class="nav-item" onclick="scroll()">
+        <a class="nav-link">Contact us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<br>
+<br>
+<img class="img-fluid" src="homeImage.jpg">
+<div class="container-fluid" style="background-color:gray"> </div>
+
+
+<div class="container-fluid" id = "contactUs">
+  <div class="col" style="padding:5px;">
+    <h2 style="text-align: center; padding: 1em; color: white; font-family:'Space Mono;"><font size="10">Contact Us </font></h2>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <div class = "form-group">
+        <input type="text" placeholder="Nome" class="form-control" id="usr">
+      </div>
+
+      <div class = "form-group">
+        <input type="email" placeholder="Email" class="form-control" id="usr">
+      </div>
+
+      <div class = "form-group">
+        <input type="text" name="" value="" placeholder="Phone No" class="form-control" id="phone">
+      </div>
+
+      <div class="form-group">
+        <textarea placeholder="Messege" class="form-control" id="messege" row = "4" ></textarea>
+      </div>
+
+      <div class="">
+        <button type="button" class="btn btn-sucess"> Submit </button>
+      </div>
+    </div>
+
+    <div id="contactIcons" class="col-sm-6">
+      <div class="row">
+        <img class="img-fluid" style="width: 2.5em; height: 2.5em;" src="email.png">
+        <h5 style="color: white;">backslash@backslash.com</h5>
+      </div>
+      <div class="row">
+        <img class="img-fluid" style="width: 2.5em; height: 2.5em;" src="telefone.png">
+        <h5>(11) 5555-5555</h5>
+      </div>
+      <div class="row">
+        <img class="img-fluid" style="width: 2.5em; height: 2.5em;" src="localizacao.png">
+        <h5>Rua da Consolação - São Paulo, SP</h5>
+      </div>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+  </body>
+</html>
